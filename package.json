@@ -1,6 +1,6 @@
 {
   "name": "@yeutech/ra-language-intl",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "react-intl version of translations messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
   "main": "lib/index.js",
   "jsnext:main": "dist/@yeutech/ra-language-intl.esm.js",
@@ -40,7 +40,8 @@
     "prestyleguide:build": "npm run jsdoc",
     "styleguide:build": "styleguidist build",
     "extract-intl": "npx @rollup-umd/intl intl extract",
-    "extract-intl:doc": "npx @rollup-umd/intl doc intl"
+    "extract-intl:doc": "npx @rollup-umd/intl doc intl",
+    "postinstall": "node -e \"console.log('\\u001b[31m@yeutech/ra-language-intl is deprecated, use @yeutech-lab/ra-language-intl instead.')\" || exit 0"
   },
   "repository": {
     "type": "git",
