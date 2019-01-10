@@ -1,6 +1,6 @@
 {
   "name": "@yeutech-lab/ra-language-intl",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "react-intl version of translations messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
   "main": "lib/index.js",
   "jsnext:main": "dist/@yeutech-lab/ra-language-intl.esm.js",
