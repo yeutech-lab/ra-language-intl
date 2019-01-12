@@ -17,6 +17,10 @@ export default defineMessages({
     id: 'ra.action.save',
     defaultMessage: 'Save',
   },
+  actionSearch: {
+    id: 'ra.action.search',
+    defaultMessage: 'Search',
+  },
   actionCreate: {
     id: 'ra.action.create',
     defaultMessage: 'Save',
@@ -25,6 +29,10 @@ export default defineMessages({
     id: 'ra.action.edit',
     defaultMessage: 'Edit',
   },
+  actionExport: {
+    id: 'ra.action.export',
+    defaultMessage: 'Export',
+  },
   actionSort: {
     id: 'ra.action.sort',
     defaultMessage: 'Sort',
@@ -32,6 +40,18 @@ export default defineMessages({
   actionCancel: {
     id: 'ra.action.cancel',
     defaultMessage: 'Cancel',
+  },
+  actionClearInputvalue: {
+    id: 'ra.action.clear_input_value',
+    defaultMessage: 'Clear value',
+  },
+  actionClone: {
+    id: 'ra.action.clone',
+    defaultMessage: 'Clone',
+  },
+  actionConfirm: {
+    id: 'ra.action.confirm',
+    defaultMessage: 'Confirm',
   },
   actionUndo: {
     id: 'ra.action.undo',
@@ -80,6 +100,10 @@ export default defineMessages({
   pageEdit: {
     id: 'ra.page.edit',
     defaultMessage: '{name} #{id}',
+  },
+  pageError: {
+    id: 'ra.page.error',
+    defaultMessage: 'Something went wrong',
   },
   pageShow: {
     id: 'ra.page.show',
@@ -173,6 +197,14 @@ export default defineMessages({
     defaultMessage:
             'Delete {smart_count, plural, one {{name}} other {{smart_count} {name} items}}',
   },
+  messageDetails: {
+    id: 'ra.message.details',
+    defaultMessage: 'Details',
+  },
+  messageError: {
+    id: 'ra.message.error',
+    defaultMessage: 'A client error occurred and your request couldn\'t be completed',
+  },
   messageBulkDeleteContent: {
     id: 'ra.message.bulk_delete_content',
     defaultMessage:
@@ -203,6 +235,10 @@ export default defineMessages({
     id: 'ra.navigation.page_range_info',
     defaultMessage: '{offsetBegin}-{offsetEnd} of {total}',
   },
+  navigationPageRowsPerPage: {
+    id: 'ra.navigation.page_rows_per_page',
+    defaultMessage: 'Rows per page',
+  },
   navigationNext: {
     id: 'ra.navigation.next',
     defaultMessage: 'Next',
@@ -210,6 +246,10 @@ export default defineMessages({
   navigationPrev: {
     id: 'ra.navigation.prev',
     defaultMessage: 'Prev',
+  },
+  authUserMenu: {
+    id: 'ra.auth.user_menu',
+    defaultMessage: 'Profile',
   },
   authUsername: {
     id: 'ra.auth.username',
@@ -245,6 +285,10 @@ export default defineMessages({
     defaultMessage:
             '{smart_count, plural, one {Element deleted} other {{smart_count, number} elements deleted}}',
   },
+  notificationDataProviderError: {
+    id: 'ra.notification.data_provider_error',
+    defaultMessage: 'dataProvider error: Check the console for details.',
+  },
   notificationBadItem: {
     id: 'ra.notification.bad_item',
     defaultMessage: 'Incorrect element',
@@ -260,6 +304,10 @@ export default defineMessages({
   notificationCanceled: {
     id: 'ra.notification.canceled',
     defaultMessage: 'Action cancelled',
+  },
+  notificationLoggedOut: {
+    id: 'ra.notification.logged_out',
+    defaultMessage: 'Your session has ended, please reconnect.',
   },
   validationRequired: {
     id: 'ra.validation.required',
@@ -288,5 +336,13 @@ export default defineMessages({
   validationEmail: {
     id: 'ra.validation.email',
     defaultMessage: 'Must be a valid email',
+  },
+  validationOneOf: {
+    id: 'ra.validation.oneOf',
+    defaultMessage: 'Must be one of: {options}',
+  },
+  validationRegex: {
+    id: 'ra.validation.regex',
+    defaultMessage: 'Must match a specific format (regexp): {pattern}',
   },
 });
