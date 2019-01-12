@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/yeutech-lab/ra-language-intl/compare/v1.0.1...v1.1.0) (2019-01-12)
+
+
+### Features
+
+* **translation:** Added fr and vi, prepared list of translation already translated from https://marmelab.com/react-admin/Translation.html ([1aeca51](https://github.com/yeutech-lab/ra-language-intl/commit/1aeca51))
+
 ## [1.0.1](https://github.com/yeutech-lab/ra-language-intl/compare/v1.0.0...v1.0.1) (2019-01-10)
 
 
