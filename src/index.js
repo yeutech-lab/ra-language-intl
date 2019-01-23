@@ -23,7 +23,7 @@ export default defineMessages({
   },
   actionCreate: {
     id: 'ra.action.create',
-    defaultMessage: 'Save',
+    defaultMessage: 'Create',
   },
   actionEdit: {
     id: 'ra.action.edit',
